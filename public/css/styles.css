@@ -124,7 +124,8 @@ footer p{
     padding: 10px 0px 10px 0px;
 }
 .icono-azul{
-    font-size: 18px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 
@@ -363,10 +364,7 @@ footer section article{
     width: 30%;
     padding: 10px;
 }
-.icono-azul{
-    font-size: 20px;
-    padding-bottom: 5px;
-}
+
 .icono-azul:hover{
 color:#1259c3;
 }
