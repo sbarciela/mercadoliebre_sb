@@ -374,7 +374,33 @@ color:#1259c3;
     display: flex;
     justify-content: flex-end;
 }
-
+.register-form{
+   
+    text-align: center;
+}
+.intereses{
+   display: block;
+}
+#electro , #moda , #hogar , #jugueteria , #vidasana{
+    width: 5%;
+}
+.contenedor-perfil{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#comprador , #vendedor{
+    width: 10%;
+}
+.perfil-usuario{
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.register-form input{
+    width: 50%;
+}
     
 }
 
