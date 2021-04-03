@@ -15,7 +15,8 @@ body{
 
 header{
         background-color:#EAC926;
-        padding: 20px;           
+        padding: 20px;
+        margin-top: 10px;           
     }
 
 .link-logo{
@@ -71,7 +72,15 @@ img{
 }
 .search-form input{
     width: 80%;
+    border-radius: 0px;
+    
 }
+.search-button{
+    border:none;
+    background-color: white;
+    padding-right: 5px;
+}
+
 
 .copy{
     margin: auto;
@@ -187,8 +196,21 @@ i.fas.fa-truck.verde.deliver {
 }
 
 /*formulario registro*/
+input {
+border:none;
+padding:7px;
+border-radius: 10px;
+}
+#nacimiento{
+    margin-top: 10px;
+}
+
+
+
 .register-form{
     margin:10px 0px 20px 0px;
+    box-shadow:  2px 6px 11px 4px rgb(0 0 0 / 20%);
+    padding: 20px 10px;
 }
 .titulo-register{
     margin-top: 20px;
@@ -229,6 +251,8 @@ i.fas.fa-truck.verde.deliver {
 .intereses input{
     width:5%;
 
+
+
     
 }
 /*fuentes*/
@@ -238,6 +262,7 @@ i.fas.fa-truck.verde.deliver {
 
 .titulares{
     font-size:24px;
+    margin: 10px 0px;
 }
 .descuentos{
 font-size: 16px;    
@@ -375,6 +400,8 @@ color:#1259c3;
 .register-form{
    
     text-align: center;
+    max-width: 60%;
+    margin: 10px auto;
 }
 .intereses{
    display: block;
@@ -396,9 +423,7 @@ color:#1259c3;
     margin-top: 10px;
     
 }
-.register-form input{
-    width: 50%;
-}
+
     
 }
 
